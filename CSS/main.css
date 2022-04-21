@@ -1,0 +1,75 @@
+.menu-icon{ font-size: 3em;}
+.menu-icon-site{font-size: 2em;}
+
+a:hover{
+    color:#E87D22;
+}
+a{
+    color: black;
+}
+@media (max-width: 576px) {
+    .site-name {font-size: 1.75rem;
+        color: red;}
+    .intro-text { 
+        font-size: 1.5rem; 
+        color: #E87D22;
+    }
+    .bio-text{
+        font-size: 1.5rem;
+    }
+    .minor-importance {font-size: 1.1rem;}
+    .copyright {font-size: 0.9rem;}
+    .link-list{font-size: 0.85rem;}
+    .menu-icon{ font-size: 2.5em;}
+    h1{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 768px) {
+    .site-name {
+        font-size: 2rem;
+        color: blue;
+    }
+    .intro-text  { 
+        font-size: 1.5rem; 
+        color: #E87D22;
+    }
+    .bio-text{
+        font-size: 1.5rem;
+    }
+    .minor-importance {font-size: 1rem;}
+     p{font-size: 1.25em;}
+    .link-list{font-size: 1rem;}
+    .copyright {font-size: 1.1rem;}
+}
+@media (min-width: 992px) {
+    .site-name {
+        font-size: 2rem;
+        color: green;
+    }
+    .minor-importance {font-size: 2rem;}
+    .intro-text  { 
+        font-size: 1.75rem; 
+        color: #E87D22;
+    }
+    .bio-text{
+        font-size: 1.75rem;
+    }
+    .link-list{font-size: 1rem;}
+    .menu-icon{ font-size: 2.75em;}
+    .copyright {font-size: 1.1rem;}
+
+}
+@media (min-width: 1200px) {
+    .site-name {font-size: 2.5rem;
+        color: pink}
+    .intro-text  { 
+        font-size: 2rem; 
+        color: #E87D22;
+    }
+    .bio-text{
+        font-size: 2rem;
+    }
+    .minor-importance {font-size: 1.1rem;}
+    .menu-icon{ font-size: 3em;}
+}
